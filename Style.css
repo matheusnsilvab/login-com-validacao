@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins';
+    color: black;
+    background-color: #012030;
+}
+
+#login-header {
+   width: 80%;
+   height: 440px;
+   border-radius: 7px 30px;
+   box-shadow: 0 0 30px black;
+   background-color: #303030;
+}
+
+#perfil {
+   position: absolute;
+   margin-left: 150px;
+   margin-top: -300px;
+   font-size: 80px;
+   color: #fff;
+}
+
+.login-title {
+   margin-left: 30px;
+   padding: 10px;
+   margin-bottom: 50px;
+   letter-spacing: 10px;
+   color: white;
+}
+
+#login-user, #login-pass {
+   margin: 20px;
+   margin-top: 20px;
+   margin-left: 40px;
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   border-bottom: 2px solid #f3f3f3;
+   outline: none;
+   color: #fff;
+   font-size: 16px;
+   background-color: #303030;
+}
+
+#entrar, #recuperar {
+   margin-top: 30px;
+   margin-left: 30px;
+   font-size: 18px;
+   font-weight: bold;
+   border: none;
+   color: white;
+   cursor: pointer;
+   background-color: #303030;
+}
+
+#entrar:hover, #recuperar:hover {
+   transition: .5s;
+   color: #f1f1f1;
+   border-bottom: 2px solid black;
+}
+
+/* TWITTER */
+#social-midia1 {
+   position: absolute;
+   width: 70%;
+   font-size: 17px;
+   text-align: center;
+   margin-top: 280px;
+   color: white;
+   border-radius: 3px;
+   background-color: #00acee;
+}
+
+/* FACEBOOK */
+#social-midia2 {
+   position: absolute;
+   width: 70%;
+   font-size: 17px;
+   text-align: center;
+   margin-top: 350px;
+   color: white;
+   border-radius: 3px;
+   background-color: #3b5998;
+}
+
+
+a {
+   text-decoration: none;
+   color: white;
+}
