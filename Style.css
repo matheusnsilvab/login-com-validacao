@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins';
+    color: black;
+    background-color: #012030;
+}
+
+#login-header {
+   width: 80%;
+   height: 440px;
+   border-radius: 7px 30px;
+   box-shadow: 0 0 30px black;
+   background-color: #303030;
+}
+
+#perfil {
+   position: absolute;
+   margin-left: 150px;
+   margin-top: -300px;
+   font-size: 80px;
+   color: #fff;
+}
+
+.login-title {
+   margin-left: 30px;
+   margin-top: 40px;
+   padding: 10px;
+   margin-bottom: 50px;
+   letter-spacing: 10px;
+   color: white;
+}
+
+#login-user, #login-pass {
+   margin: 20px;
+   margin-top: 20px;
+   margin-left: 40px;
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   border-bottom: 2px solid #f3f3f3;
+   font-weight: bold;
+   outline: none;
+   color: #fff;
+   font-size: 16px;
+   background-color: #303030;
+}
+
+#login-user:hover, #login-pass:hover {
+   transition: .5s;
+   border-radius: 10px;
+   border: 2px solid #BFBFBF;
+}
+
+
+#entrar, #recuperar {
+   margin-left: 30px;
+   font-size: 18px;
+   font-weight: bold;
+   border: none;
+   color: white;
+   cursor: pointer;
+   background-color: #303030;
+}
+
+#entrar:hover, #recuperar:hover {
+   transition: .5s;
+   color: #000;
+   border-bottom: 2px solid grey;
+}
+
+/* TWITTER */
+#social-midia1 {
+   position: absolute;
+   width: 70%;
+   font-size: 17px;
+   text-align: center;
+   margin-top: 280px;
+   color: white;
+   border-radius: 3px;
+   background-color: #00acee;
+}
+
+/* FACEBOOK */
+#social-midia2 {
+   position: absolute;
+   width: 70%;
+   font-size: 17px;
+   text-align: center;
+   margin-top: 350px;
+   color: white;
+   border-radius: 3px;
+   background-color: #3b5998;
+}
+
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+@media (min-width: 1000px) {
+ #perfil { 
+   margin-left: 350px;
+   margin-top: -200px;
+   font-size: 100px;
+}
+
+.login-title {
+   margin-left: 165px;
+   margin-top: 60px;
+   font-size: 75px;
+}
+
+#login-user, #login-pass {
+   display: inline-block;
+   margin-left: 90px;
+   margin-top: -10px;
+   font-size: 24px;
+   margin-bottom: -30px;
+}
+
+#entrar, #recuperar {
+   display: inline-block;
+   margin-top: 30px;
+   font-size: 24px;
+ }
+}
